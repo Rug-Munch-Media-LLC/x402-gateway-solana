@@ -1,0 +1,12 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "cryptorugmuncher"
+  ],
+  "name": "Rug Munch Intelligence x402 (Solana)",
+  "description": "Rug Munch Intelligence x402 MCP Gateway - 10 crypto security tools on Solana via micropayments",
+  "server": {
+    "url": "https://x402-sol.cryptorugmuncher.workers.dev",
+    "transport": "http"
+  }
+}

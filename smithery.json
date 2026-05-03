@@ -1,0 +1,18 @@
+{
+  "name": "Rug Munch Intelligence x402 (Solana)",
+  "description": "Rug Munch Intelligence x402 MCP Gateway - 10 crypto security tools on Solana via micropayments",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Rug-Munch-Media-LLC/x402-gateway-solana"
+  },
+  "mcpServers": {
+    "rugmunch-x402-gateway-solana": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://x402-sol.cryptorugmuncher.workers.dev/.well-known/x402"
+      ]
+    }
+  }
+}
