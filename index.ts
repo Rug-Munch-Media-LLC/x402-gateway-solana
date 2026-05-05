@@ -2274,6 +2274,7 @@ async function handleRequest(request: Request, env: Env): Promise<Response> {
           const mcpTools = Object.entries(allMcp).flatMap(([svc, ts]) =>
             (ts as any[]).map(t => ({
               name: `${svc}_${t.name}`,
+              title: t.description || `${svc}_${t.name}`,
               description: t.description || "",
               inputSchema: normalizeSchema(t.parameters),
               outputSchema,
@@ -2282,6 +2283,7 @@ async function handleRequest(request: Request, env: Env): Promise<Response> {
           );
           const rmiTools = Object.values(RMI_TOOLS).map(t => ({
             name: t.name,
+            title: t.description || t.name,
             description: t.description,
             inputSchema: {
               type: "object",
