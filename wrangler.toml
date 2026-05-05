@@ -1,0 +1,14 @@
+name = "x402-sol"
+main = "index.ts"
+compatibility_date = "2024-11-01"
+workers_dev = true
+
+[vars]
+BACKEND_API = "https://rugmunch.io"
+BACKEND_MCP = "https://mcp-router.rugmunch.io"
+NETWORK = "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"
+NETWORK_NAME = "Solana Mainnet"
+FACILITATOR = "https://facilitator.payai.network"
+ORGANIZATION = "Rug Munch Intelligence"
+DESCRIPTION = "Crypto security and analytics tools via x402 micropayments"
+PAY_TO = "Gix4P9AmwcZRGzr2hCEME5m2QAvY86dBfm8c7e7MpFzv"
